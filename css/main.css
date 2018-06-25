@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200,400');
+
+* {
+    background-color: #703C8C;
+    color: #ECECEC;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 7% 20%;
+}
+
+canvas {
+    border: 5px solid #000000; 
+    width: 100%;
+    background-image: url("/images/flooring.png");
+}
