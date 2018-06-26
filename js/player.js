@@ -20,7 +20,7 @@ Player.prototype.move = function() {
     document.onkeydown = function(event){{
             switch (event.keyCode) {
             case SPACE:
-            if (this.y >= 0){generate
+            if (this.y >= 0){
             this.y -= 10;
             };
             break
