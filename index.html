@@ -12,16 +12,20 @@
     <script src="js/bg.js"></script>
     <script src="js/player.js"></script>
     <script src="js/obstacles.js"></script>
+    <script src="js/images.js"></script>
+    <script src="js/door.js"></script>
+    <script src="sound.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SoundJS/1.0.2/soundjs.min.js"></script>
 </head>
 <body>
-<header class ="page-header">
+<header id="header" class ="page-header">
     <h1>Asocials Anonymous</h1>
     <p>Objective: Find the nearest exit while avoiding all forms of socialization.</p>
     <p>Instructions: Use the arrows to run away from people. Press SPACE to jump over furniture!</p>
     <button type="button" id= "start-button" class="btn btn-dark">Start Game</button>
 </header>
 <div class = "container">
-    <canvas id="canvas" width="960" height="490" style="background: url('./images/flooring.png')"></canvas>
+    <canvas id="canvas" width="960" height="550" style="background: url('./images/flooring.png')"></canvas>
 </div>
     
 </body>

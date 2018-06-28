@@ -21,7 +21,7 @@ Player.prototype.move = function() {
             switch (event.keyCode) {
             case SPACE:
             if (this.y >= 0){
-            this.y -= 10;
+            this.y -= 60;
             };
             break
             case LEFT:
