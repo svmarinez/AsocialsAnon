@@ -2,7 +2,7 @@ function Game(canvasId) {
   this.canvas = document.getElementById(canvasId);
   this.ctx = this.canvas.getContext("2d");
   this.fps = 60;
-  
+  this.music = new Music();
   this.reset();
 }
 
@@ -32,7 +32,6 @@ Game.prototype.startGame = function() {
       if (this.framesCounter % 500 === 0) {
         this.generateDoor();
       }
-      this.score += 0.1;
       this.draw();
       this.moveAll();
       this.clearObstacles();
@@ -108,8 +107,7 @@ Game.prototype.generateDoor = function() {
 Game.prototype.reset = function() {
   this.background = new Background(this);
   this.player = new Player(this);
-  this.images = new Images();
-  this.music = new Music();
+  this.images = new Images();  
   this.door = [];
   this.obstacles = [];
   this.framesCounter = 0;
