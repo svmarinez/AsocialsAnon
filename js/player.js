@@ -11,7 +11,6 @@ function Player(game) {
 }
    
 Player.prototype.draw = function() {
-    imageScale = 302/602;
     this.game.ctx.drawImage(this.img, this.x, this.y, this.w, this.h);
 };
 

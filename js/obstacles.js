@@ -4,7 +4,7 @@ function Obstacle(game, image, name) {
         this.x= (Math.random()*(this.game.canvas.width-50));;
         this.y = 0 - image.height;
         this.dy = 1;
-        console.log(name);
+        
         if (name === 2){
             this.sofa();
         } else if (name === 3){

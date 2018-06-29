@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:200,400');
 
-* {
+*, body {
     background-color: #703C8C;
     color: #ECECEC;
     font-family: 'Exo 2', sans-serif;
-    margin: 0;
     padding: 0;
 }
 
 header {
     margin: 0;
-    padding: 4% 15%;
+    padding: 2% 50% 1% 1%;
+    font-weight:bolder;
 }
 
 canvas {
     border: 5px solid #000000; 
-    width: 100%;
+    width: 90%;
+    height: 90%;
+    margin: 1% 5%;
+    padding: 2% 5% 2% 5%%
     background-image: url("/images/flooring.png");
 }
