@@ -4,7 +4,7 @@ Ironhack Madrid // Project 1
 
 Objectives: Use JavaScript and <canvas> to create a game.
 
-Click <a href="https://svmarinez.github.io/AsocialsAnonymous/">here</a> to play!!!
+Click <a href="https://svmarinez.github.io/AsocialsAnonymous/">here</a> to play!!! (NOT MOBILE-FRIENDLY...yet)
 
 How to play: 
 ===============
